@@ -1,0 +1,204 @@
+/* ---------- Whole Page ---------- */
+
+* {
+  margin:0%;
+  padding:0%
+}
+
+.hover {
+  transform: scale(1.2);
+}
+
+/* ------------ Header ------------ */
+
+header {
+  background-color: black;
+  background-size: 100%;
+  padding: auto;
+  margin-left: 0%;
+  margin-right: 0%;
+}
+
+#profilePic {
+  display: flex;
+  border-radius: 50%;
+  height: 130px;
+  margin: -66px 0 22px 0;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3s;
+}
+
+.header-Hs {
+  color: white;
+}
+
+#header-h2 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: rgb(190, 190, 190);
+}
+
+#header-p {
+  color: white;
+}
+
+#gps {
+  height: 25.05px;
+  float: left;
+}
+
+#header-left-side {
+  width: 25%;
+  padding-top: 130px;
+  padding-left: 400px;
+  float: left;
+}
+
+#header-right-side {
+  width: 75%;
+  padding-top: 90px;
+}
+
+.socialImg {
+  padding-top: 20px;
+  padding-bottom: 75px;
+  padding-right: 10px;
+  height: 25.05px;
+}
+
+.container {
+  padding: auto;
+  margin: auto;
+}
+
+/* ------ Job Section - Body ------ */
+
+main {
+  margin-left: 400px;
+  margin-right: 330px;
+}
+
+.bodyHeading {
+  margin-top: 24px;
+}
+
+.jobSubHeading {
+  margin-top: 30px;
+  margin-bottom: 12px;
+}
+
+.job-dates {
+  font-weight: normal;
+  color: #8b8b8b;
+}
+
+#wFGImage {
+  padding-top: 45px;
+  border-radius: 3px;
+  width: 53.44px;
+  display: inline;
+  margin-left: auto;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3s;  
+}
+
+#tPImage {
+  border-radius: 3px;
+  width: 53.44px;
+  display: inline;
+  margin-left: auto;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3s; 
+}
+
+#lDSImage {
+  border-radius: 3px;
+  width: 53.44px;
+  display: inline;
+  margin-left: auto;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3s;
+}
+
+.bodyBullets {
+  color: #5f5f5f;
+  margin-right: 85px;
+}
+
+.jobs-right-side {
+  float: right;
+}
+
+/* --- Education Section - Body --- */
+
+.educationHeadings {
+  padding-top: 25px;
+  font-weight: normal;
+}
+
+.educationSubHeadings {
+  padding-top: 4px;
+  padding-bottom: 25px;
+}
+
+.education-right-side {
+  float: right;
+}
+
+#codeXAcademyImage {
+  border-radius: 3px;
+  width: 65px;
+  display: inline;
+  margin-left: auto;
+  margin-top: 25px;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3s;
+}
+
+#bYUIImage {
+  border-radius: 3px;
+  width: 65px;
+  display: inline;
+  margin-left: auto;
+  margin-top: 25px;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3s;
+}
+
+/* ------------ Footer ------------ */
+
+footer {
+  background-color: black;
+  background-size: 100%;
+  padding: auto;
+  margin-left: 0%;
+  margin-right: 0%;
+  color: white;
+}
+
+.footerHs {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+#hr1 {
+  width: 95%;
+}
+
+ul {
+  margin: 1rem;
+}
+
+.footerLI {
+  color: white;
+}
+
+.fcontainer {
+  padding: auto;
+  margin: auto;
+}
+
+#footer-left-side {
+  width: 30%;
+  float: left;
+  padding-left: 400px;
+}
+
+#footer-right-side {
+  width: 70%;
+  padding-bottom: 200px;
+}
