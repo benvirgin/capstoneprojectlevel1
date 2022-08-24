@@ -1,3 +1,5 @@
+// Header Image
+
 var profilePic = document.querySelector('#profilePic');
 
 profilePic.addEventListener('mouseenter', function() {
@@ -12,45 +14,33 @@ profilePic.addEventListener('mouseleave', function() {
   }
 })
 
-var wFGImage = document.querySelector('#wFGImage');
+// Body Images
 
-wFGImage.addEventListener('mouseenter', function() {
-  if (!wFGImage.classList.contains('hover')) {
-    wFGImage.classList.add('hover');
+var firepreneurshipImage = document.querySelector('#firepreneurshipImage');
+
+firepreneurshipImage.addEventListener('mouseenter', function() {
+  if (!firepreneurshipImage.classList.contains('hover')) {
+    firepreneurshipImage.classList.add('hover');
   }
 })
 
-wFGImage.addEventListener('mouseleave', function() {
-  if (wFGImage.classList.contains('hover')) {
-    wFGImage.classList.remove('hover');
+firepreneurshipImage.addEventListener('mouseleave', function() {
+  if (firepreneurshipImage.classList.contains('hover')) {
+    firepreneurshipImage.classList.remove('hover');
   }
 })
 
-var tPImage = document.querySelector('#tPImage');
+var aptimaizImage = document.querySelector('#aptimaizImage');
 
-tPImage.addEventListener('mouseenter', function() {
-  if (!tPImage.classList.contains('hover')) {
-    tPImage.classList.add('hover');
+aptimaizImage.addEventListener('mouseenter', function() {
+  if (!aptimaizImage.classList.contains('hover')) {
+    aptimaizImage.classList.add('hover');
   }
 })
 
-tPImage.addEventListener('mouseleave', function() {
-  if (tPImage.classList.contains('hover')) {
-    tPImage.classList.remove('hover');
-  }
-})
-
-var lDSImage = document.querySelector('#lDSImage');
-
-lDSImage.addEventListener('mouseenter', function() {
-  if (!lDSImage.classList.contains('hover')) {
-    lDSImage.classList.add('hover');
-  }
-})
-
-lDSImage.addEventListener('mouseleave', function() {
-  if (lDSImage.classList.contains('hover')) {
-    lDSImage.classList.remove('hover');
+aptimaizImage.addEventListener('mouseleave', function() {
+  if (aptimaizImage.classList.contains('hover')) {
+    aptimaizImage.classList.remove('hover');
   }
 })
 

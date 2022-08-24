@@ -23,7 +23,7 @@ header {
   display: flex;
   border-radius: 50%;
   height: 130px;
-  margin: -66px 0 22px 0;
+  margin: -40px 0 22px 0;
   transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3s;
 }
 
@@ -42,6 +42,7 @@ header {
 }
 
 #gps {
+  margin-right: 5px;
   height: 25.05px;
   float: left;
 }
@@ -60,7 +61,7 @@ header {
 
 .socialImg {
   padding-top: 20px;
-  padding-bottom: 75px;
+  padding-bottom: 90px;
   padding-right: 10px;
   height: 25.05px;
 }
@@ -70,7 +71,7 @@ header {
   margin: auto;
 }
 
-/* ------ Job Section - Body ------ */
+/* ------ Work Experience - Body ------ */
 
 main {
   margin-left: 400px;
@@ -91,8 +92,8 @@ main {
   color: #8b8b8b;
 }
 
-#wFGImage {
-  padding-top: 45px;
+#firepreneurshipImage {
+  padding-top: 50px;
   border-radius: 3px;
   width: 53.44px;
   display: inline;
@@ -100,20 +101,12 @@ main {
   transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3s;  
 }
 
-#tPImage {
+#aptimaizImage {
   border-radius: 3px;
   width: 53.44px;
   display: inline;
   margin-left: auto;
   transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3s; 
-}
-
-#lDSImage {
-  border-radius: 3px;
-  width: 53.44px;
-  display: inline;
-  margin-left: auto;
-  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3s;
 }
 
 .bodyBullets {
